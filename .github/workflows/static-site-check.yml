@@ -2,11 +2,7 @@ name: Static Site Check
 
 on:
   push:
-    branches:
-      - heathmcintyre26-afk-patch-2
   pull_request:
-    branches:
-      - heathmcintyre26-afk-patch-2
   workflow_dispatch:
 
 permissions:
