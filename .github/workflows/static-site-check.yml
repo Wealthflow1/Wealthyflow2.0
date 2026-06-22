@@ -1,0 +1,25 @@
+name: Static Site Check
+
+on:
+  push:
+    branches:
+      - heathmcintyre26-afk-patch-2
+  pull_request:
+    branches:
+      - heathmcintyre26-afk-patch-2
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-static-site:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validate required deployment files
+        run: |
+          test -f index.html || (echo "Missing index.html" && exit 1)
+          test -f vercel.json || (echo "Missing vercel.json" && exit 1)

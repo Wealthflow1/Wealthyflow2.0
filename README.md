@@ -1,9 +1,20 @@
 # Wealthflows
-A crypto wallet and financing trading when to buy in app live market data for future investing 
 
-## Main Wallet Address
-`0xdd565c9d64be8749d3f5c2b69577f619a4858168`
+Wealthflows is a lightweight static landing site for a crypto-focused wallet and market-data companion.
 
-This is the project's public main wallet receiving address.
-It is intended only for public transactions and should be actively monitored.
-Do not store private keys or seed phrases in this repository.
+## Deployment
+
+This repository is configured for static deployment on Vercel.
+
+### Deploy with Vercel CLI
+
+```bash
+cd /home/runner/work/Wealthyflow2.0/Wealthyflow2.0
+vercel --prod
+```
+
+## Repository Notes
+
+- The site entrypoint is `index.html`.
+- Vercel configuration is in `vercel.json`.
+- Do not store private keys, seed phrases, or secrets in this repository.
