@@ -1,6 +1,6 @@
-# Wealthyflow2.0
+# wealthflow.444
 
-Wealthyflow2.0 is a lightweight static landing site for a crypto-focused wallet and market-data companion.
+wealthflow.444 is a lightweight static landing site for a crypto-focused wallet and market-data companion.
 
 ## Deployment
 
