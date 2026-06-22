@@ -1,6 +1,6 @@
-# Wealthflows
+# Wealthyflow2.0
 
-Wealthflows is a lightweight static landing site for a crypto-focused wallet and market-data companion.
+Wealthyflow2.0 is a lightweight static landing site for a crypto-focused wallet and market-data companion.
 
 ## Deployment
 
@@ -9,7 +9,7 @@ This repository is configured for static deployment on Vercel.
 ### Deploy with Vercel CLI
 
 ```bash
-cd /home/runner/work/Wealthyflow2.0/Wealthyflow2.0
+cd <project-directory>
 vercel --prod
 ```
 
